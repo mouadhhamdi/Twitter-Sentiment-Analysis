@@ -23,14 +23,14 @@ For the comptetions we used a test dataset that contains 10000 entries.
       - http://www.hlt.utdallas.edu/~yangl/data/Text_Norm_Data_Release_Fei_Liu/
       - http://people.eng.unimelb.edu.au/tbaldwin/etc/emnlp2012-lexnorm.tgz
       - http://luululu.com/tweet/typo-corpus-r1.txt
-- dict_slan_words: This folder contains a dictionnary with slang word correcr. Example: 4u --> for you. this dictionnary was constructed by as
+- dict_slan_words: This folder contains a dictionnary with slang word corrected. Example: 4u --> for you. this dictionnary was constructed by us
 - glove_embedding: this folder contains the glove weights and words embedding, also it contains the tweet-glove downloaded from stanford.
-- positive_negative_words: This folder contains two dictionnaries, the first one contains positive words and the second one contains negative words.
+- positive_negative_words: This folder contains two dictionnairies, the first one contains positive words and the second one contains negative words.
 - train_test_data: This folder contains the train and test data.
 
 # Code and notebooks
-- helper.py: This script contains methodes to read and process the data
-- process.py: This script calls specific methodes of helper.py to clean the data and save the cleaned version
+- helper.py: This script contains methods to read and process the data
+- process.py: This script calls specific methods of helper.py to clean the data and save the cleaned version
 - paths.py: It contains only the paths used in our code so that we won't define them seperately.
 - tfidfi_methods.py: This script will use the glove weighted matrix and average the vectors of the words in each tweet.
 - kaggle_submission.py: This script create submission file from saved models.
